@@ -92,6 +92,4 @@ jobs:
           # Optionally, you can set a custom commit message
 
           commit_message: "Update snake animation [skip ci]"
-Update README.md · CauaHm/CauaHm@7ad8a48
-
 Explain
