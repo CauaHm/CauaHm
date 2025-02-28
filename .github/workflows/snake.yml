@@ -18,7 +18,7 @@ jobs:
       - uses: Sutil/snk@master
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: CauaHm
           svg_out_path: dist/github-contribution-grid-snake2.svg
           snake_color: 'blue'
 
@@ -26,33 +26,5 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write  # Add this line to grant write permissions
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      # Add other steps here
-
-      - name: Push changes
-        run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
-          git add .
-          git commit -m "Automated commit"
-          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
