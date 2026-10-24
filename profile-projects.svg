@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="310" viewBox="0 0 445 310" role="img" aria-label="Projetos em destaque">
+<title>Projetos em destaque</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0f1630"/><stop offset="1" stop-color="#0a0f1f"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #e6edf3; }
+  .muted { fill: #8b98b8; }
+  .accent { fill: #5eead4; }
+  .star { fill: #fff; animation: twinkle 4s ease-in-out infinite; }
+  .cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes twinkle { 0%,100% { opacity: .15; } 50% { opacity: .8; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  
+</style>
+<rect x="1" y="1" width="443" height="308" rx="18" fill="url(#bg)" stroke="#2f9e78" stroke-opacity=".75" stroke-width="1.5"/>
+<circle class="star" cx="152.9" cy="84.6" r="1.1" style="animation-delay:0.87s"/>
+<circle class="star" cx="65.8" cy="245.3" r="1.1" style="animation-delay:0.91s"/>
+<circle class="star" cx="145.5" cy="157.0" r="0.6" style="animation-delay:3.44s"/>
+<circle class="star" cx="160.7" cy="274.9" r="1.1" style="animation-delay:1.29s"/>
+<circle class="star" cx="305.0" cy="187.7" r="0.6" style="animation-delay:2.55s"/>
+<circle class="star" cx="375.5" cy="100.7" r="0.8" style="animation-delay:3.56s"/>
+<circle class="star" cx="336.8" cy="249.8" r="0.6" style="animation-delay:2.84s"/>
+<circle class="star" cx="387.2" cy="56.5" r="0.6" style="animation-delay:3.15s"/>
+<circle class="star" cx="137.0" cy="284.3" r="0.8" style="animation-delay:0.42s"/>
+<circle class="star" cx="191.9" cy="125.0" r="0.8" style="animation-delay:2.68s"/>
+<circle class="star" cx="258.3" cy="287.3" r="1.1" style="animation-delay:2.86s"/>
+<circle class="star" cx="21.9" cy="35.1" r="0.6" style="animation-delay:3.68s"/>
+<circle class="star" cx="253.3" cy="126.8" r="1.1" style="animation-delay:2.62s"/>
+<circle class="star" cx="221.6" cy="35.5" r="0.6" style="animation-delay:1.57s"/>
+<circle class="star" cx="414.5" cy="131.9" r="1.1" style="animation-delay:1.84s"/>
+<circle class="star" cx="311.8" cy="156.5" r="1.1" style="animation-delay:2.95s"/>
+<circle class="star" cx="403.2" cy="169.6" r="0.8" style="animation-delay:2.03s"/>
+<circle class="star" cx="418.9" cy="182.0" r="0.8" style="animation-delay:1.84s"/>
+<circle class="star" cx="185.9" cy="102.9" r="1.1" style="animation-delay:2.42s"/>
+<circle class="star" cx="93.7" cy="272.5" r="0.6" style="animation-delay:1.05s"/>
+<circle class="star" cx="408.1" cy="91.9" r="1.1" style="animation-delay:2.42s"/>
+<circle class="star" cx="420.7" cy="105.2" r="0.8" style="animation-delay:2.06s"/>
+<circle class="star" cx="416.6" cy="156.7" r="1.1" style="animation-delay:3.76s"/>
+<circle class="star" cx="44.2" cy="191.9" r="1.1" style="animation-delay:3.05s"/>
+<circle class="star" cx="103.5" cy="74.9" r="0.8" style="animation-delay:0.46s"/>
+<circle class="star" cx="264.8" cy="282.4" r="0.6" style="animation-delay:2.21s"/>
+
+<text x="24" y="44" font-size="15" font-weight="700">Projects.list <tspan class="muted" font-weight="400">./projetos.sh --recent</tspan><tspan class="accent cursor">_</tspan></text>
+<text x="24" y="86" font-size="14" font-weight="700" class="accent">nutri</text><text x="421" y="86" font-size="11" class="muted" text-anchor="end">★ 0</text><text x="24" y="104" font-size="11" class="muted">sem descrição</text><circle cx="28" cy="117" r="4" fill="#3178c6"/><text x="38" y="121" font-size="11">TypeScript<tspan class="muted">  ·  atualizado 21/09/2026</tspan></text><text x="24" y="143" font-size="14" font-weight="700" class="accent">fernandes-advocacia</text><text x="421" y="143" font-size="11" class="muted" text-anchor="end">★ 0</text><text x="24" y="161" font-size="11" class="muted">sem descrição</text><circle cx="28" cy="174" r="4" fill="#663399"/><text x="38" y="178" font-size="11">CSS<tspan class="muted">  ·  atualizado 27/08/2026</tspan></text><text x="24" y="200" font-size="14" font-weight="700" class="accent">portifolio</text><text x="421" y="200" font-size="11" class="muted" text-anchor="end">★ 0</text><text x="24" y="218" font-size="11" class="muted">sem descrição</text><circle cx="28" cy="231" r="4" fill="#663399"/><text x="38" y="235" font-size="11">CSS<tspan class="muted">  ·  atualizado 27/08/2026</tspan></text><text x="24" y="257" font-size="14" font-weight="700" class="accent">zeca-e-nina-petshop</text><text x="421" y="257" font-size="11" class="muted" text-anchor="end">★ 0</text><text x="24" y="275" font-size="11" class="muted">sem descrição</text><circle cx="28" cy="288" r="4" fill="#e34c26"/><text x="38" y="292" font-size="11">HTML<tspan class="muted">  ·  atualizado 26/08/2026</tspan></text>
+</svg>
